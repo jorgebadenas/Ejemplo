@@ -43,6 +43,15 @@ public class Persona {
 	public void setNacimiento(LocalDateTime nacimiento) {
 		this.nacimiento = nacimiento;
 	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", dni=" + dni + ", nacimiento=" + nacimiento + "]";
+	}
+	
 	
 
 }
